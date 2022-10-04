@@ -16,6 +16,8 @@ public class ServerTCP {
         InputStream is = cliSocket.getInputStream();
         OutputStream os = cliSocket.getOutputStream();
 
+        byte[] msgBuffer = new byte[256];
+        int nBytes = is.read(msgBuffer);
 
 
 
