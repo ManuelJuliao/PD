@@ -4,20 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4713707d-36b8-4047-a7b6-0c5bdb3863f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PD.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex5/ClientUDP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex5/ServerUDP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex6/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex6/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex7/ClientTCP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex7/ServerTCP.java" afterDir="false" />
+    <list default="true" id="4713707d-36b8-4047-a7b6-0c5bdb3863f2" name="Changes" comment="ex5,6,7">
+      <change afterPath="$PROJECT_DIR$/src/Ex8/ClientTCP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex8/ServerTCP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex9/ServerTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex9/TCP/ClientTCP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex9/TCP/ServerTCP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex9/UDP/ClientUDP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex9/UDP/ServerUDP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex7/ClientTCP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex7/ClientTCP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex7/ServerTCP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex7/ServerTCP.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,16 +45,17 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/manueljuliao/Desktop/PD_repo/PD"
+    "last_opened_file_path": "/Users/manueljuliao/Desktop/PD_repo/PD",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Client">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ex6.Client" />
+  <component name="RunManager" selected="Application.ClientTCP">
+    <configuration name="ClientTCP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex9.TCP.ClientTCP" />
       <module name="PD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ex6.*" />
+          <option name="PATTERN" value="Ex9.TCP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,11 +64,11 @@
       </method>
     </configuration>
     <configuration name="ClientUDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ex5.ClientUDP" />
+      <option name="MAIN_CLASS_NAME" value="Ex9.UDP.ClientUDP" />
       <module name="PD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ex5.*" />
+          <option name="PATTERN" value="Ex9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pt.isec.pd.Main" />
+    <configuration name="Ex8.ServerTCP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex8.ServerTCP" />
       <module name="PD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pt.isec.pd.*" />
+          <option name="PATTERN" value="Ex8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ex6.Server" />
+    <configuration name="Ex9.TCP.ServerTCP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex9.TCP.ServerTCP" />
       <module name="PD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ex6.*" />
+          <option name="PATTERN" value="Ex9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,11 +103,11 @@
       </method>
     </configuration>
     <configuration name="ServerUDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ex5.ServerUDP" />
+      <option name="MAIN_CLASS_NAME" value="Ex9.UDP.ServerUDP" />
       <module name="PD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ex5.*" />
+          <option name="PATTERN" value="Ex9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Server" />
-        <item itemvalue="Application.ClientUDP" />
-        <item itemvalue="Application.ServerUDP" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ClientTCP" />
+        <item itemvalue="Application.Ex9.TCP.ServerTCP" />
+        <item itemvalue="Application.Ex9.UDP.ClientUDP" />
+        <item itemvalue="Application.Ex9.UDP.ServerUDP" />
+        <item itemvalue="Application.Ex8.ServerTCP" />
       </list>
     </recent_temporary>
   </component>
@@ -136,6 +134,21 @@
       <option name="presentableId" value="Default" />
       <updated>1664309070547</updated>
     </task>
+    <task id="LOCAL-00001" summary="ex5,6,7">
+      <created>1664914482623</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664914482624</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ex5,6,7">
+      <created>1664914610126</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664914610126</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,5 +161,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ex5,6,7" />
+    <option name="LAST_COMMIT_MESSAGE" value="ex5,6,7" />
   </component>
 </project>
