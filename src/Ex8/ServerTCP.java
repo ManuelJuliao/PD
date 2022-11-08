@@ -48,8 +48,8 @@ public class ServerTCP {
             }
             */
 
-            //FileInputStream file = new FileInputStream(String.valueOf(sb));
-            FileInputStream file = new FileInputStream(String.valueOf(new_dir));
+            FileInputStream file = new FileInputStream(String.valueOf(sb));
+            //FileInputStream file = new FileInputStream(String.valueOf(new_dir));
             int i = 0;
             do{
                 byte[] block = new byte[MAX_DATA];

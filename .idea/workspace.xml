@@ -4,17 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4713707d-36b8-4047-a7b6-0c5bdb3863f2" name="Changes" comment="ex5,6,7">
-      <change afterPath="$PROJECT_DIR$/src/Ex8/ClientTCP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex8/ServerTCP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex9/ServerTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex9/TCP/ClientTCP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex9/TCP/ServerTCP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex9/UDP/ClientUDP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex9/UDP/ServerUDP.java" afterDir="false" />
+    <list default="true" id="4713707d-36b8-4047-a7b6-0c5bdb3863f2" name="Changes" comment="ex 9">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sqlite_jdbc_3_39_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_db_jdbc.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sqlite-jdbc-3.39.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex14/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex14/Master.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex14/PiCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex14/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex9/DataBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex9/Ex6/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex9/Ex6/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex9/Ex8/ClientTCP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex9/Ex8/ServerTCP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/ConnDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/worker.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex7/ClientTCP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex7/ClientTCP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex7/ServerTCP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex7/ServerTCP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PD.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex8/ServerTCP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex8/ServerTCP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex9/TCP/ClientTCP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex9/Ex7/ClientTCP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex9/TCP/ServerTCP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex9/Ex7/ServerTCP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex9/UDP/ClientUDP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex9/Ex5/ClientUDP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex9/UDP/ServerUDP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex9/Ex5/ServerUDP.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,27 +46,33 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2FMjuMsx2m1eqby60M5wIP6HJ8f" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/manueljuliao/Desktop/PD_repo/PD",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/manueljuliao/Desktop/PD_repo/PD&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.ClientTCP">
-    <configuration name="ClientTCP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ex9.TCP.ClientTCP" />
+}</component>
+  <component name="RunManager" selected="Application.ClientTCP Ex9(8) args">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex9.Ex6.Client" />
       <module name="PD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ex9.TCP.*" />
+          <option name="PATTERN" value="Ex9.Ex6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,12 +80,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientUDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ex9.UDP.ClientUDP" />
+    <configuration name="ClientTCP Ex9(8) args" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Ex9.Ex8.ClientTCP" />
       <module name="PD" />
+      <option name="PROGRAM_PARAMETERS" value="127.0.0.1 $PROJECT_DIR$/../../test/CLientFiles/ teste.png" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ex9.*" />
+          <option name="PATTERN" value="Ex9.Ex8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,7 +94,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex8.ServerTCP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ConnDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbc.ConnDB" />
+      <module name="PD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Master with args" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Ex14.Master" />
+      <module name="PD" />
+      <option name="PROGRAM_PARAMETERS" value="worker.txt 5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ex14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerTCP Ex9(8) args" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Ex9.Ex8.ServerTCP" />
+      <module name="PD" />
+      <option name="PROGRAM_PARAMETERS" value="9001 $PROJECT_DIR$/../../test/ServerFiles/" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerTCP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ex8.ServerTCP" />
       <module name="PD" />
       <extension name="coverage">
@@ -89,39 +142,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex9.TCP.ServerTCP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ex9.TCP.ServerTCP" />
+    <configuration name="Worker 5001" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Ex14.Worker" />
       <module name="PD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ex9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PROGRAM_PARAMETERS" value="5001" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServerUDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ex9.UDP.ServerUDP" />
+    <configuration name="Worker 5002" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Ex14.Worker" />
       <module name="PD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ex9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PROGRAM_PARAMETERS" value="5002" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Worker 5003" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Ex14.Worker" />
+      <module name="PD" />
+      <option name="PROGRAM_PARAMETERS" value="5003" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Worker 5001" />
+      <item itemvalue="Application.Worker 5002" />
+      <item itemvalue="Application.Worker 5003" />
+      <item itemvalue="Application.ServerTCP Ex9(8) args" />
+      <item itemvalue="Application.ClientTCP Ex9(8) args" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.ConnDB" />
+      <item itemvalue="Application.Master with args" />
+      <item itemvalue="Application.ServerTCP" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ClientTCP" />
-        <item itemvalue="Application.Ex9.TCP.ServerTCP" />
-        <item itemvalue="Application.Ex9.UDP.ClientUDP" />
-        <item itemvalue="Application.Ex9.UDP.ServerUDP" />
-        <item itemvalue="Application.Ex8.ServerTCP" />
+        <item itemvalue="Application.ClientTCP Ex9(8) args" />
+        <item itemvalue="Application.Master with args" />
+        <item itemvalue="Application.ConnDB" />
+        <item itemvalue="Application.ServerTCP" />
+        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664914610126</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ex 9">
+      <created>1665522416787</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665522416787</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -163,7 +232,29 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="ex5,6,7" />
-    <option name="LAST_COMMIT_MESSAGE" value="ex5,6,7" />
+    <MESSAGE value="ex 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="ex 9" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Ex14/Master.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Ex9/Ex8/ServerTCP.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
